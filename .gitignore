@@ -1,0 +1,11 @@
+# Business documents - DO NOT publish
+bill/
+doc/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
