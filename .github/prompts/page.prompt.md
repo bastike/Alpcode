@@ -17,18 +17,9 @@ alpcode@outlook.de
 Website:
 this github page.
 
-
-Rephrase this test: 
-"
-Wir sind Ihr Partner für professionelles Software Engineeringmit Augenmerk auf Qualität und Fokus auf Kundenzufriedenheit.
-Sie brauchen eine exakt zugeschnittene Software-Lösung für Ihr Unternehmen?
-Herzlich willkommen bei Alpencode!
-Unsere Kernkompetenzen liegen auf IT-Dienstleistungen und damit verbunden Teilaufgaben. Wir haben für zahlreiche Projekte Software-Architekturen entwickelt und greifen auf einen riesigen Erfahrungsschatz zurück. Dabei setzen wir auf modernste Herangehensweisen, legen unser Augenmerk auf höchste Qualität und fokussieren auf die Kundenzufriedenheit. Global Player, wie auch namhafte mittelständische Betriebe setzen auf unsere kompetenten und innovativen Lösungen.
-
-Wir freuen uns auf Ihren Kontakt!
-
-"
-
-Make all in german. 
+Text:
+Sie suchen eine maßgeschneiderte Softwarelösung, die exakt auf die Anforderungen Ihres Unternehmens zugeschnitten ist? Dann sind Sie bei Alpcode genau richtig!
+Unsere Kernkompetenzen liegen in der professionellen App-Entwicklung und IT-Dienstleistungen. In zahlreichen Projekten haben wir leistungsfähige Software-Architekturen entworfen und können auf einen umfangreichen Erfahrungsschatz zurückgreifen. Dabei setzen wir konsequent auf modernste Technologien, achten auf höchste Qualität und stellen Ihre Zufriedenheit in den Mittelpunkt.
+Internationale Konzerne ebenso wie renommierte mittelständische Unternehmen vertrauen auf unsere kompetenten und innovativen Lösungen.
 
 
