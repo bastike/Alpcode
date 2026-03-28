@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpcode – App Development</title>
+    <meta name="description" content="Alpcode – Ihr Partner für professionelle App-Entwicklung und maßgeschneiderte Softwarelösungen.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Alpcode Logo">
+            </a>
+            <nav class="nav">
+                <a href="#ueber-uns">Über uns</a>
+                <a href="#leistungen">Leistungen</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Professionelle Softwarelösungen<br>mit Leidenschaft entwickelt</h1>
+            <p class="hero-sub">Wir sind Ihr Partner für erstklassige App-Entwicklung – mit höchstem Qualitätsanspruch und dem Fokus auf Ihre Zufriedenheit.</p>
+            <a href="#kontakt" class="btn">Kontakt aufnehmen</a>
+        </div>
+    </section>
+
+    <!-- Über uns -->
+    <section id="ueber-uns" class="section">
+        <div class="container">
+            <h2>Über uns</h2>
+            <div class="about-content">
+                <p>
+                    Sie suchen eine maßgeschneiderte Softwarelösung, die exakt auf die Anforderungen Ihres Unternehmens zugeschnitten ist? Dann sind Sie bei <strong>Alpcode</strong> genau richtig!
+                </p>
+                <p>
+                    Unsere Kernkompetenzen liegen in der professionellen App-Entwicklung und IT-Dienstleistungen. In zahlreichen Projekten haben wir leistungsfähige Software-Architekturen entworfen und können auf einen umfangreichen Erfahrungsschatz zurückgreifen. Dabei setzen wir konsequent auf modernste Technologien, achten auf höchste Qualität und stellen Ihre Zufriedenheit in den Mittelpunkt.
+                </p>
+                <p>
+                    Internationale Konzerne ebenso wie renommierte mittelständische Unternehmen vertrauen auf unsere kompetenten und innovativen Lösungen.
+                </p>
+                <p><strong>Wir freuen uns auf Ihre Nachricht!</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leistungen -->
+    <section id="leistungen" class="section section-alt">
+        <div class="container">
+            <h2>Unsere Leistungen</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>App-Entwicklung</h3>
+                    <p>Native und plattformübergreifende Apps für iOS und Android – performant, benutzerfreundlich und zukunftssicher.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web-Entwicklung</h3>
+                    <p>Moderne Webanwendungen und Websites, die auf allen Geräten überzeugen – responsiv und schnell.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Software-Architektur</h3>
+                    <p>Durchdachte Architekturen für skalierbare und wartbare Systeme – von der Planung bis zur Umsetzung.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>IT-Beratung</h3>
+                    <p>Strategische Beratung für Ihre digitalen Vorhaben – praxisnah, kompetent und auf Augenhöhe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Telefon</span>
+                        <a href="tel:+4915756578616">+49 157 5657 8616</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">E-Mail</span>
+                        <a href="mailto:alpcode@outlook.de">alpcode@outlook.de</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Web</span>
+                        <a href="#">alpcode.github.io</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Alpcode Logo">
+            </div>
+            <p>&copy; 2026 Alpcode – App Development. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            toggle.classList.toggle('active');
+        });
+
+        // Close nav on link click
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                toggle.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
